@@ -1,3 +1,16 @@
+# Technologies Used
+### Frontend
+- React.js
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- Mongoose
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
