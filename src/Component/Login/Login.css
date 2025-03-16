@@ -1,0 +1,64 @@
+/* Center the form */
+form {
+    width: 320px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style labels */
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style inputs */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  /* Input focus effect */
+  input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  /* Style the login button */
+  .log-btn {
+    width: 95%;
+    padding: 12px;
+    background: hsl(204, 91%, 46%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  /* Button hover effect */
+  .log-btn:hover {
+    background: hwb(238 5% 15%);
+    transform: scale(1.05);
+  }
+  
+  /* Button active effect */
+  .log-btn:active {
+    background: hsl(240, 77%, 44%);
+    transform: scale(1);
+  }
+  

@@ -1,0 +1,54 @@
+.user-container {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: #555;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+button, .update-btn {
+  margin: 10px 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Update Button Styles */
+.update-btn {
+  background-color: #28a745; /* Green color */
+  color: white;
+  padding: 8px 15px;
+}
+
+.update-btn:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Delete Button Styles */
+.delete-btn {
+  background-color: #dc3545; /* Red color */
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}

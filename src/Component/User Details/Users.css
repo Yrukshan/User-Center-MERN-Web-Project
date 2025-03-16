@@ -1,0 +1,54 @@
+/* Center input box and button in the same position */
+.search-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align items vertically */
+    margin-top: 20px; /* Add spacing */
+    gap: 10px;/* Space between input and button */ 
+  }
+  
+  /* Style the search input */
+  input[name="search"] {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    height: 40px; /* Ensure same height as button */
+  }
+  
+  input[name="search"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Style the search button */
+  .Search-Btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 120px; /* Adjust width to match input */
+    height: 40px; /* Same height as input */
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Search-Btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .Search-Btn:active {
+    background-color: #004494;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  

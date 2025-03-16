@@ -1,0 +1,58 @@
+/* Styling the navigation bar */
+.home-ul {
+  list-style-type: none;
+  background: gold;
+  padding: 12px 20px;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling each navigation item */
+.home-li {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.home-li:hover {
+  background: #ffffff04;
+  transform: scale(1.05);
+}
+
+/* Underline effect on hover */
+.home-li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: white;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.home-li:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px; /* Adds space between logo and links */
+  vertical-align: middle; /* Aligns logo with the text */
+}
